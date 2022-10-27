@@ -31,6 +31,7 @@ function Post({ post }) {
             >
               <Image
                 layout="fill"
+                alt={post.title}
                 // height={96}
                 // width={96}
                 // initial={{ opacity: 0 }}
@@ -72,6 +73,7 @@ export const Modal = ({ selectedimg, setSelectedImg }) => {
           animate={{ y: "0" }}
         >
           <Image
+            alt={selectedimg}
             layout="fill"
             src={selectedimg}
             className="h-full w-full object-top object-cover"

@@ -41,6 +41,7 @@ const Hero = () => {
       <div className="w-full h-[40vh] bottom-0 bg-gradient-to-b from-transparent to-[#202020] z-10 absolute"></div>
       <div className="relative w-full h-screen  b-0 " ref={backgroundRef}>
         <Image
+          alt="background"
           src={Background}
           layout="fill"
           objectFit="cover"
@@ -58,6 +59,7 @@ const Hero = () => {
         ref={mountainRef}
       >
         <Image
+          alt="Mountain"
           src={Mountain}
           layout="fill"
           objectFit="cover"
