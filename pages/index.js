@@ -11,7 +11,7 @@ export default function Home({ posts }) {
       <Head>
         <title>Views</title>
       </Head>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <div className="max-w-7xl mx-auto  mt-24">
         <h1 className="text-3xl sm:text-5xl font-black text-white p-2 md:p-6">
