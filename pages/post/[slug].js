@@ -3,7 +3,6 @@ import Head from "next/head";
 import { useState } from "react";
 import { sanityClient, urlFor } from "../../sanity";
 import { motion } from "framer-motion";
-import Header from "../../components/header";
 import { SlugHeader } from "../../components/SlugHeader";
 
 function Post({ post }) {
