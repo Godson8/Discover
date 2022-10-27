@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Header from "../components/header";
+// import Header from "../components/header";s
 import Hero from "../components/Hero";
 import { sanityClient, urlFor } from "../sanity";
 
