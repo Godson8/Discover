@@ -6,7 +6,6 @@ import Hero from "../components/Hero";
 import { sanityClient, urlFor } from "../sanity";
 
 export default function Home({ posts }) {
-  console.log(posts);
   return (
     <div className="bg-[#202020]">
       <Head>
