@@ -2,7 +2,7 @@
 // import { motion } from "framer-motion";
 
 // const Header = () => {
-//   const [navBar, setNavBar] = useState(false);
+// const [navBar, setNavBar] = useState(false);
 
 //   const showNavBar = () => {
 //     if (window.scrollY >= 300) {
