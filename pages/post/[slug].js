@@ -8,8 +8,6 @@ import { SlugHeader } from "../../components/SlugHeader";
 
 function Post({ post }) {
   const [selectedImg, setSelectedImg] = useState(null);
-  console.log(post);
-  console.log(selectedImg);
   return (
     <div>
       <Head>
@@ -54,7 +52,6 @@ export default Post;
 
 export const Modal = ({ selectedimg, setSelectedImg }) => {
   const handleClick = (e) => {
-    console.log(e.target.tagName);
     if (e.target.tagName === "DIV") {
       setSelectedImg(null);
     }
@@ -73,7 +70,7 @@ export const Modal = ({ selectedimg, setSelectedImg }) => {
           animate={{ y: "0" }}
         >
           <Image
-            alt={selectedimg}
+            alt=""
             layout="fill"
             src={selectedimg}
             className="h-full w-full object-top object-cover"

@@ -5,7 +5,6 @@ const Header = () => {
   const [navBar, setNavBar] = useState(false);
 
   const showNavBar = () => {
-    console.log(window.scrollY);
     if (window.scrollY >= 300) {
       setNavBar(true);
     } else {

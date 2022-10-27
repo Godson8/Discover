@@ -5,7 +5,6 @@ export const SlugHeader = ({ post }) => {
   const [navBar, setNavBar] = useState(false);
 
   const showNavBar = () => {
-    console.log(window.scrollY);
     if (window.scrollY >= 100) {
       setNavBar(true);
     } else {
